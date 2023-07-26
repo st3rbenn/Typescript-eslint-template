@@ -3,13 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mantine/carousel": "^6.0.17",
+    "@mantine/core": "^6.0.17",
+    "@mantine/dates": "^6.0.17",
+    "@mantine/dropzone": "^6.0.17",
+    "@mantine/form": "^6.0.17",
+    "@mantine/hooks": "^6.0.17",
+    "@mantine/modals": "^6.0.17",
+    "@mantine/notifications": "^6.0.17",
+    "@mantine/nprogress": "^6.0.17",
+    "@mantine/prism": "^6.0.17",
+    "@mantine/spotlight": "^6.0.17",
+    "@mantine/tiptap": "^6.0.17",
+    "@tabler/icons-react": "^2.29.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@tiptap/extension-link": "^2.0.4",
+    "@tiptap/react": "^2.0.4",
+    "@tiptap/starter-kit": "^2.0.4",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.41",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "dayjs": "^1.11.9",
+    "embla-carousel-react": "^8.0.0-rc11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -17,13 +36,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-		"lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
-		"lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
-		"format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json}' --config ./.prettierrc"
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx,json}",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json}' --config ./.prettierrc"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +72,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
   }
 }
